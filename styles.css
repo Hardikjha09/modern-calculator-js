@@ -1,0 +1,114 @@
+/* Reset + base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Calculator container */
+.container {
+  background: #02215f;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  width: 320px;
+}
+
+/* Title */
+.container h1 {
+  color: #e5e7eb;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Display */
+.display {
+  background: #020617;
+  color: #f9fafb;
+  font-size: 2.2rem;
+  text-align: right;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  min-height: 60px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);
+  overflow-x: auto;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: #111827;
+  color: #e5e7eb;
+  transition: all 0.15s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover */
+button:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+}
+
+
+/* Click */
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Special buttons */
+#clear {
+  background: #7c2d12;
+  color: #fed7aa;
+}
+
+#clear:hover {
+  background: #9a3412;
+}
+
+#equals {
+  background: #1d4ed8;
+  color: white;
+}
+
+#equals:hover {
+  background: #2563eb;
+}
+
+/* Operators */
+#add, #subtract, #multiply, #divide {
+  background: #0f172a;
+  color: #93c5fd;
+}
+
+#add:hover, 
+#subtract:hover, 
+#multiply:hover, 
+#divide:hover {
+  background: #1e293b;
+}
