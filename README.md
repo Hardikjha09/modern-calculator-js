@@ -11,6 +11,12 @@ Designed with a modern dark UI and smooth user interactions.
 
 ---
 
+## 🚀 Live Demo
+
+🔗 https://hardikjha09.github.io/modern-calculator-js/
+
+--- 
+
 ## 🚀 Features
 
 - ➕ Basic arithmetic operations (+, −, ×, ÷)
