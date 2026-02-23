@@ -14,8 +14,8 @@ Designed with a modern dark UI and smooth user interactions.
 ## 🚀 Features
 
 - ➕ Basic arithmetic operations (+, −, ×, ÷)
-- 💯 Percentage calculation
-- ⌫ Backspace / delete support
+- 💯 Percentage (%) support
+- ⌫ Backspace / delete functionality
 - ⌨️ Keyboard input support
 - ⚠️ Error handling (invalid expressions, divide by zero)
 - 🎨 Modern dark-themed UI
@@ -37,3 +37,7 @@ Designed with a modern dark UI and smooth user interactions.
 - State Management
 - Input Validation
 - Keyboard Event Listeners
+
+---
+
+Built as part of frontend practice
